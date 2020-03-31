@@ -1,0 +1,39 @@
+{
+  "products": [
+    {
+      "Name": "Cheese",
+      "Price": 2.5,
+      "category": "Dairy Products"
+    },
+    {
+      "Name": "Milk",
+      "Price": 3,
+      "category": "Dairy Products"
+    },
+    {
+      "Name": "Carrot",
+      "Price": 4,
+      "category": "Vegetables"
+    },
+    {
+      "Name": "Tomato",
+      "Price": 1.5,
+      "category": "Vegetables"
+    },
+    {
+      "Name": "Apple",
+      "Price": 1.5,
+      "category": "Fruits"
+    },
+    {
+      "Name": "Grapes",
+      "Price": 6.5,
+      "category": "Fruits"
+    },
+    {
+      "Name": "almonds",
+      "Price": 3,
+      "category": "Dry Fruits"
+    }
+  ]
+}
