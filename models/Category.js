@@ -37,6 +37,14 @@ Category.get("/deletcategory", function(req, res) {
         res.send(`Category ${id} is not present`);
       }
     }
+     let newData = JSON.stringify({ products: [...newProducts] });
+            fs.writeFile("products.json", newData, function(err) {
+              if (err) {
+                console.log(err);
+              } else {
+                res.send(deletedProducts);
+              }
+            });
   });
 });
 module.exports = Category;
